@@ -1,0 +1,130 @@
+body {
+  padding: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+header{
+  display:flex;
+  flex-direction: row;
+  padding:0px;
+  text-align: center;
+}
+
+header *{
+  position: relative;
+  left:10%;
+}
+
+.searchBtn{
+  height: 40px;
+  top:30px;
+}
+
+.panel{
+  float:right;
+  position: relative;
+  top:50px;
+  box-shadow: 4px 4px 5px #f7f7f7;
+  height: 400px;
+  width: 1000px;
+  right:50px;
+  overflow-y: auto;
+}
+
+.panel_elem{
+   box-shadow: 2px 2px #ededed;
+   display:flex;
+   flex-direction: column;
+}
+#deleteBtn{
+  width:150px;
+  margin-top:10px;
+  padding: 5px;
+}
+.task_input{
+  width:80%;
+  margin:0px auto;
+  background-color: black;
+}
+
+.nav_bar{
+  width:100%;
+  margin:0px;
+  padding: 0px;
+}
+
+#task_input{
+  position: relative;
+  top:100px;
+}
+
+.select_zone{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  float:left;
+  top:50px;
+  left:200px;
+}
+
+.select_zone *{
+  width:200px;
+  margin-bottom: 5px;
+}
+
+#states_panel{
+   width: 800px;
+   height: 600px;
+   box-shadow: 2px 2px #ededed;
+   margin:0px auto;
+   position: relative;
+   top:100px;
+}
+
+#states_panel *{
+   width: 800px;
+}
+.main_panel{
+  width:auto;
+  height: 400px;
+  margin-bottom: 20px;
+}
+.second_panel{
+  width:auto;
+  height: 400px
+}
+
+.s_select_zone{
+  position: relative;
+  float:left;
+  top:50px;
+  left:200px;
+}
+
+.activate_second_panel{
+  display:block;
+}
+.deactivate_second_panel{
+  display:none;
+}
+.update_panel{
+  width: 800px;
+  height: 600px;
+  box-shadow: 2px 2px #ededed;
+  margin:0px auto;
+  position: relative;
+  top:100px;
+}
+
+#update_panel{
+  display:flex;
+  flex-direction: column;
+}
+.element{
+  display: flex;
+  flex-direction: row;
+}

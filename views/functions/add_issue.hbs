@@ -1,0 +1,74 @@
+<div class="main_panel">
+  <div class="select_zone">
+    <div class="issue_version">
+      <label for="issue_version">Project Version</label>
+      <select class="custom-select" id="issue_version">
+      </select>
+    </div>
+    <div>
+      <label for="issue_type">Issue Type</label>
+      <select class="custom-select" id="issue_type">
+        <option value="Feature">Feature</option>
+        <option value="Bug">Bug</option>
+        <option value="Task">Task</option>
+      </select>
+    </div>
+    <div>
+      <label for="issue_state">Issue State</label>
+      <select class="custom-select" id="issue_state">
+        <option value="1">New</option>
+        <option value="2">In progress</option>
+        <option value="3">Feedback</option>
+        <option value="4">Rework</option>
+        <option value="5">Resolved</option>
+        <option value="6">Ready for Testing</option>
+      </select>
+    </div>
+  </div>
+
+  <form id="issue_form" class="col-lg-10 panel">
+   <div class="form-group">
+     <label for="input_name">Issue Name</label>
+     <input type="text" class="form-control" id="input_name">
+   </div>
+   <div class="form-group">
+     <label for="input_des">Issue Description</label>
+     <textarea type="text" class="form-control" id="input_des" rows="4" cols="50"></textarea>
+   </div>
+   <div class="form-group">
+     <label for="user_name">Submit As</label>
+     <input type="text" class="form-control" id="user_name">
+   </div>
+
+   <button id="new_version" type="button" class="btn btn-primary">New Version</button>
+   <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+<div class="second_panel">
+
+  <div class="s_select_zone">
+    <label for="s_issue_state">Issue State</label>
+    <select class="custom-select" id="s_issue_state">
+      <option value="1">New</option>
+      <option value="2">In progress</option>
+      <option value="3">Feedback</option>
+      <option value="4">Rework</option>
+      <option value="5">Resolved</option>
+      <option value="6">Ready for Testing</option>
+    </select>
+  </div>
+
+  <form id="s_issue_form" class="col-lg-10 panel">
+   <div class="form-group">
+     <label for="s_input_name">Issue Name</label>
+     <input type="text" class="form-control" id="s_input_name">
+   </div>
+   <div class="form-group">
+     <label for="s_input_des">Issue Description</label>
+     <textarea type="text" class="form-control" id="s_input_des" rows="4" cols="50"></textarea>
+   </div>
+
+   <button id="s_add_subtask"type="button" class="btn btn-primary">Add Subtask</button>
+  </form>
+</div>
